@@ -209,4 +209,8 @@ public class AdminController {
 		return new ResponseDTO("Retuerning details"+ " @ ", LocalDateTime.now());
 	}
 
+	@PostMapping("/getDetails")
+	public ResponseDTO getBulkDetails() {
+		return new ResponseDTO("Retuerning details"+ " @ ", LocalDateTime.now());
+	}
 }
