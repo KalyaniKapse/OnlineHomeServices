@@ -204,5 +204,9 @@ public class AdminController {
 		return new ResponseDTO("File uploaded :" + imageFile.getOriginalFilename() + " @ ", LocalDateTime.now());
 	}
 	
+	@PostMapping("/get")
+	public ResponseDTO getDetails() {
+		return new ResponseDTO("Retuerning details"+ " @ ", LocalDateTime.now());
+	}
 
 }
